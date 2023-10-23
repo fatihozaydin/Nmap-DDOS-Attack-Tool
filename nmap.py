@@ -19,8 +19,9 @@ def nmap_hello():
     
     
     
-    ip = input(" Please Enter The IP: ")
+    
     processNo = input(" Please Enter Process Number: ")
+    ip = input(" Please Enter The IP: ")
 
     if(processNo=="0"):
         os.system("nmap "+ip)
